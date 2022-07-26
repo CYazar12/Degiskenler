@@ -59,7 +59,7 @@
         
            Console.WriteLine(int21); // Ciktisi 40'''
 
-### Convert fonksiyonlarinin yanisira degsim yapabilcegimiz digerbir fonskiyon Parse, ama Parse ile sadece string degerler icin kullaniliyor.
+#### Convert fonksiyonlarinin yanisira degsim yapabilcegimiz digerbir fonskiyon Parse, ama Parse ile sadece string degerler icin kullaniliyor.
 
     '''int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'''
 
