@@ -43,11 +43,9 @@
        int integer3 = integer1 * integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
+'bool bool1 = 10<2;'
 
-'bool bool1 = 10<2'
-
-###   DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI
-
+## DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI ÖRNEKLER
 
 #### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
      '''string? str20 = "20";
@@ -57,23 +55,24 @@
 
 #### Integer Dönüsümleri : Örnegin Bir Integer degerin bir Örnegin bir String deger ile birlestirilip matematiksel toplayip yeni bir integer deger elde etmek istiyoruz.
 
-        ''' int int21 = int20 + Convert.ToInt32(str20);
+        '''int int21 = int20 + Convert.ToInt32(str20);
         
-           Console.WriteLine(int21); // Ciktisi 40 '''
+           Console.WriteLine(int21); // Ciktisi 40'''
 
 ### Convert fonksiyonlarinin yanisira degsim yapabilcegimiz digerbir fonskiyon Parse, ama Parse ile sadece string degerler icin kullaniliyor.
 
-    'int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'
+    '''int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'''
 
-### Datetime dönüsümleri
+## Datetime dönüsümleri
+### Bir Datetime ciktiyi stringe dönüsütür ve verirken bunu dd.MM.yyyy olarak formatla  
 
-   '''string? datetime = DateTime.Now.ToString("dd.MM.yyyy"); // Bir Datetime ciktiyi string dönüsütür ve verirken bunu dd.MM.yyyy olarak formatla                                                                     
-      Console.WriteLine(datetime);''' 
+'''string? datetime = DateTime.Now.ToString("dd.MM.yyyy");
+Console.WriteLine(datetime);''' 
          
  ### dd/MM/yyyy olarak formatla
 
-   '''string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy"); 
-   Console.WriteLine(datetime2);'''  
+'''string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
+Console.WriteLine(datetime2);'''  
 
 ### Saati HH:mm olarak formatla
 
