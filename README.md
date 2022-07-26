@@ -1,2 +1,2 @@
 
-# C# console projesi ilk Ödev
+# C# Konsol projesi ilk Ödev
