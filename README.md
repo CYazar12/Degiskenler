@@ -62,21 +62,21 @@ bool bool1 = 10<2;
 
 #### Convert fonksiyonlarinin yanisira degsim yapabilcegimiz digerbir fonskiyon Parse, ama Parse ile sadece string degerler icin kullaniliyor.
 
-    '''int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'''
+    'int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'
 
 ## Datetime dönüsümleri
-### Bir Datetime ciktiyi stringe dönüsütür ve verirken bunu dd.MM.yyyy olarak formatla  
+### Bir Datetime ciktiyi stringe dönüsütür ve verirken bunu dd.MM.yyyy olarak formatla 
 
-'''string? datetime = DateTime.Now.ToString("dd.MM.yyyy");
-Console.WriteLine(datetime);''' 
-         
- ### dd/MM/yyyy olarak formatla
+'string? datetime = DateTime.Now.ToString("dd.MM.yyyy");
+Console.WriteLine(datetime);' 
 
-'''string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
-Console.WriteLine(datetime2);'''  
+### dd/MM/yyyy olarak formatla
+
+'string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
+Console.WriteLine(datetime2);' 
 
 ### Saati HH:mm olarak formatla
 
-          ''' string? hour = DateTime.Now.ToString("HH:mm");
-             Console.WriteLine(hour);'''
+'string? hour = DateTime.Now.ToString("HH:mm");
+ Console.WriteLine(hour);'
                                        
