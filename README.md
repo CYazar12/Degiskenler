@@ -22,37 +22,31 @@
       Gösterim 1 : 'string? str1 = "" '
       Gösterim 2 : ' string? str1 = null;'
 
-     '''
-      Gösterim 3 Bos String tanimlama
+    
+        Gösterim 3 Bos String tanimlama
       
-        'string? str1 =string.Empty; 
+        'string? str1 =string.Empty;'
         
-
-       ' str1 = "Celale Yildiz Yazar" ;  // String e deger atamak istiyorsak: '
+       'str1 = "Celale Yildiz Yazar" ;  // String e deger atamak istiyorsak:'
         
-      ''' string? ad = " Celale";
+      '''string? ad = " Celale";
        
        string? soyad = " Yildiz Yazar ";
 
-      string? tamlsin = ad + " " +soyad;  // Stringleri birlestirme yollarindan biri bu sekilde.
-      
-      '''
+      string? tamlsin = ad + " " +soyad;  // Stringleri birlestirme yollarindan biri bu sekilde.'''
 
 ### // Integer tanimlama sekilleri
-'''
-         int integer1 = 5;
-         int integer2 = 3;
-         int integer3 = integer1 * integer2;'''
+'''int integer1 = 5;
+   int integer2 = 3;
+   int integer3 = integer1 * integer2;'''
 
-### // boolean ifade tanimlama sekilleri    //   
+### // boolean ifade tanimlama sekilleri 
 'bool bool1 = 10<2;'
 
 ###   DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI
 
 #### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
-
-       '''
-       string? str20 = "20";
+     '''string? str20 = "20";
        int int20 = 20;
        string? yeniDeger = str20 + int20.ToString();
        Console.WriteLine(yeniDeger); // Ciktisi 2020 ,terminale gidip bak.'''
@@ -65,7 +59,7 @@
 
 Convert fonksiyonlarinin yanisira .Aynizamanda degsim yapabilcegimiz diger  bir fonskiyon Parse, ama  Parse ile sadece string degerler icin kullaniliyor.
 
-    ' int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak '
+    'int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'
 
 ### Datetime dönüsümleri
 
