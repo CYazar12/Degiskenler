@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 [Patika](www.patika.dev)
 
-# Degiskenler
-C# console projesi ilk Ödev
+# Degiskenler C# console projesi ilk Ödev
 
 ''' C#
 using System;
