@@ -36,9 +36,12 @@
 
       string? tamlsin = ad + " " +soyad;  // Stringleri birlestirme yollarindan biri bu sekilde.'''
 
-### // Integer tanimlama sekilleri
+### //Integer tanimlama sekilleri
+
 ''' int integer1 = 5;
+
     int integer2 = 3;
+    
     int integer3 = integer1 * integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
