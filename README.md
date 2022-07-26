@@ -43,17 +43,17 @@
        int integer3 = integer1 * integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
-'bool bool1 = 10<2;'
+'''bool bool1 = 10<2;'''
 
 ## DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI ÖRNEKLER
 
-#### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
+#### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadeye birlestirilip yeni bir string deger elde etmek isitiyoruz:
      '''string? str20 = "20";
        int int20 = 20;
        string? yeniDeger = str20 + int20.ToString();
        Console.WriteLine(yeniDeger); // Ciktisi 2020 ,terminale gidip bak.'''
 
-#### Integer Dönüsümleri : Örnegin Bir Integer degerin bir Örnegin bir String deger ile birlestirilip matematiksel toplayip yeni bir integer deger elde etmek istiyoruz.
+#### Integer Dönüsümleri : Örnegin Bir Integer degerin bir String deger ile birlestirilip matematiksel toplayip yeni bir integer deger elde etmek istiyoruz.
 
         '''int int21 = int20 + Convert.ToInt32(str20);
         
