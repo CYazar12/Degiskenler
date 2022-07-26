@@ -42,7 +42,7 @@
   
   ' int integer2 = 3;'
   
-  'int integer3 = integer1 xinteger2;'
+  '''int integer3 = integer1 *integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
 'bool bool1 = 10<2'
