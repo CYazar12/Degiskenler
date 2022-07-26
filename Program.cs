@@ -1,10 +1,4 @@
-[Patika](www.patika.dev)
-
-# Degiskenler
-C# console projesi ilk Ödev
-
-''' C#
-using System;
+﻿using System;
 namespace degiskenler
 {
  class Program
@@ -77,5 +71,3 @@ namespace degiskenler
         }
     }
 }
-
-'''
