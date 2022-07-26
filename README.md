@@ -3,8 +3,7 @@
 
 # Degiskenler C# console projesi ilk Ödev
 
-'''C#
-        using System;
+       ''' using System;
         
         namespace degiskenler  {
         
