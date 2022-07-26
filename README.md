@@ -38,6 +38,7 @@
 
 ### //Integer tanimlama sekilleri
 
+
 ''' int integer1 = 5;
 
     int integer2 = 3;
