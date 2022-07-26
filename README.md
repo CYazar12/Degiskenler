@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [Patika](www.patika.dev)
 
 # Degiskenler
@@ -78,4 +79,8 @@ namespace degiskenler
     }
 }
 
+
 '''
+
+# C# Konsol projesi ilk Ödev
+>>>>>>> 9df213789f23c80f7c8c683f9f07924191a9fa2b
