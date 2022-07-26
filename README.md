@@ -17,15 +17,20 @@
 
 ###  // Stringlerde neler yapabiliriz, String Ifade sekilleri
 
-      // Bos String tanimala sekilleri :   Gösterim 1 : string? str1 = "";     // Gösterim 2 :     string? str1 = null;
+      Bos String tanimala sekilleri : 
+      
+      Gösterim 1 : 'string? str1 = "" '
+      Gösterim 2 : ' string? str1 = null;'
 
-     '''C#
-     
-     string? str1 =string.Empty; // Gösterim 3 Bos String tanimlama
-
-       str1 = "Celale Yildiz Yazar" ;  // String e deger atamak istiyorsak:
+     '''
+      Gösterim 3 Bos String tanimlama
+      
+        'string? str1 =string.Empty; 
         
-       string? ad = " Celale";
+
+       ' str1 = "Celale Yildiz Yazar" ;  // String e deger atamak istiyorsak: '
+        
+      ''' string? ad = " Celale";
        
        string? soyad = " Yildiz Yazar ";
 
@@ -34,16 +39,17 @@
       '''
 
 ### // Integer tanimlama sekilleri
-
+'''
          int integer1 = 5;
          int integer2 = 3;
-         int integer3 = integer1 * integer2;
+         int integer3 = integer1 * integer2;'''
 
-### // boolean ifade tanimlama sekilleri    //   bool bool1 = 10<2;
+### // boolean ifade tanimlama sekilleri    //   
+'bool bool1 = 10<2;'
 
 ###   DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI
 
-String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
+#### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
 
        '''
        string? str20 = "20";
@@ -51,17 +57,17 @@ String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birle
        string? yeniDeger = str20 + int20.ToString();
        Console.WriteLine(yeniDeger); // Ciktisi 2020 ,terminale gidip bak.'''
 
-Integer Dönüsümleri : Örnegin Bir Integer degerin bir Örnegin bir String deger ile birlestirilip matematiksel toplayip yeni bir integer deger elde etmek istiyoruz.
+#### Integer Dönüsümleri : Örnegin Bir Integer degerin bir Örnegin bir String deger ile birlestirilip matematiksel toplayip yeni bir integer deger elde etmek istiyoruz.
 
         ''' int int21 = int20 + Convert.ToInt32(str20);
         
-       Console.WriteLine(int21); // Ciktisi 40 '''
+           Console.WriteLine(int21); // Ciktisi 40 '''
 
-Convert fonksiyonlarina inceleyebiliriz,bircok kullanim alani var .Aynizamanda degsim yapabilcegimiz diger fonskiyon Parse, Parse ile sadece string degerler icin kullaniliyor.
+Convert fonksiyonlarinin yanisira .Aynizamanda degsim yapabilcegimiz diger  bir fonskiyon Parse, ama  Parse ile sadece string degerler icin kullaniliyor.
 
     ' int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak '
 
- Datetime dönüsümleri
+### Datetime dönüsümleri
 
    '''string? datetime = DateTime.Now.ToString("dd.MM.yyyy");  // Bir Datetime ciktiyi string dönüsütür ve verirken bunu formatla, normalde saatle birlikte                                                                               tarihgeliyor
           Console.WriteLine(datetime);                   // ama ben saat gelsin istemiyoru, sadece gün, ay, yil olarak aralarinda nokta ile getir. '''
