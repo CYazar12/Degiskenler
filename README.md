@@ -38,10 +38,9 @@
 
 ### //Integer tanimlama sekilleri
 
-
-''' int integer1 = 5;
-    int integer2 = 3;
-     int integer3 = integer1 * integer2;'''
+    '''int integer1 = 5;
+       int integer2 = 3;
+       int integer3 = integer1 * integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
 
