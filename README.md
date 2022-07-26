@@ -1,2 +1,2 @@
-# Degiskenler
-C# console projesi ilk Ödev
+
+# C# console projesi ilk Ödev
