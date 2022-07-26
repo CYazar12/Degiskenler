@@ -19,11 +19,12 @@
 
       Bos String tanimala sekilleri : 
       
-      Gösterim 1 : 'string? str1 = "" '
-      Gösterim 2 : ' string? str1 = null;'
+     // Gösterim 1 : 
+      'string? str1 = "" '
+     // Gösterim 2 : 
+      ' string? str1 = null;'
 
-    
-        Gösterim 3 Bos String tanimlama
+     // Gösterim 3 Bos String tanimlama
       
         'string? str1 =string.Empty;'
         
