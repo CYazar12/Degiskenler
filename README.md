@@ -40,15 +40,15 @@
 
 
 ''' int integer1 = 5;
-
     int integer2 = 3;
-    
-    int integer3 = integer1 * integer2;'''
+     int integer3 = integer1 * integer2;'''
 
 ### // boolean ifade tanimlama sekilleri 
+
 'bool bool1 = 10<2'
 
 ###   DEGISKENLERIN BIRBIRLERINE DÖNUSUMLERI
+
 
 #### String Dönüsümleri: Örnegin bir String ifadenin  bir intger ifadesiyle birlestirilip yeni bir string deger elde etmek isitiyoruz:
      '''string? str20 = "20";
