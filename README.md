@@ -61,29 +61,22 @@
         
            Console.WriteLine(int21); // Ciktisi 40 '''
 
-Convert fonksiyonlarinin yanisira .Aynizamanda degsim yapabilcegimiz diger  bir fonskiyon Parse, ama  Parse ile sadece string degerler icin kullaniliyor.
+### Convert fonksiyonlarinin yanisira degsim yapabilcegimiz digerbir fonskiyon Parse, ama Parse ile sadece string degerler icin kullaniliyor.
 
     'int int22 = int20 + int.Parse(str20); //ciktisi 40 olacak'
 
 ### Datetime dönüsümleri
 
-   '''string? datetime = DateTime.Now.ToString("dd.MM.yyyy");  // Bir Datetime ciktiyi string dönüsütür ve verirken bunu formatla, normalde saatle birlikte                                                                               tarihgeliyor
-          Console.WriteLine(datetime);                   // ama ben saat gelsin istemiyoru, sadece gün, ay, yil olarak aralarinda nokta ile getir. '''
+   '''string? datetime = DateTime.Now.ToString("dd.MM.yyyy"); // Bir Datetime ciktiyi string dönüsütür ve verirken bunu dd.MM.yyyy olarak formatla                                                                     
+      Console.WriteLine(datetime);''' 
+         
+ ### dd/MM/yyyy olarak formatla
 
-peki tarihlerin arasinda nokta degil / olsun olarak istersem 
+   '''string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy"); 
+   Console.WriteLine(datetime2);'''  
 
-          ''' string? datetime2 = DateTime.Now.ToString("dd/MM/yyyy"); 
-         // Bir Datetime ciktiyi string dönüsütür ve verirken bunu formatla, normalde saatle birlikte tarihgeliyor
-          Console.WriteLine(datetime2);'''  
-
-// bu tarihteki saati de ayrica almak istiyorsak
+### Saati HH:mm olarak formatla
 
           ''' string? hour = DateTime.Now.ToString("HH:mm");
-             Console.WriteLine(hour);
-        
- 
-        }
-    }
-}
-
-'''
+             Console.WriteLine(hour);'''
+                                       
