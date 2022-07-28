@@ -29,11 +29,11 @@
       
         'string? str1 =string.Empty;'
         
-       'str1 = "Celale Yildiz Yazar" ;  // String e deger atamak istiyorsak:'
+       'str1 = "Cemre Yilmaz Yazar" ;  // String e deger atamak istiyorsak:'
         
-      '''string? ad = " Celale";
+      '''string? ad = " Cemre";
        
-       string? soyad = " Yildiz Yazar ";
+       string? soyad = " Yilmaz Yazar ";
 
       string? tamlsin = ad + " " +soyad;  // Stringleri birlestirme yollarindan biri bu sekilde.'''
 
